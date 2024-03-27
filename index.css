@@ -27,7 +27,7 @@ nav>a.homemenu {
   background-color: white;
   color: black;
   padding-left: 25px;
-  padding-left: 25px;
+  padding-right: 25px;
 }
 
 nav>a.homemenu:hover {
@@ -55,6 +55,11 @@ nav>span#bar {
   color: white;
   justify-self: right;
 }
+div.menu2>a {
+text-decoration: none;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 nav>span#bar:hover {
   background-color: white;
@@ -73,4 +78,8 @@ nav>span#bar:hover {
   nav>span#bar {
     display: none;
   }
+  div.menu2>a {
+    display: none;
+  }
+  
 }
